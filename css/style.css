@@ -1,0 +1,50 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: url(https://scontent.fmnl4-7.fna.fbcdn.net/v/t1.15752-9/441281243_2497257330484041_682732847279674896_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF35MttWff88GkflEP_vNWKNoBM9BJtAr82gEz0Em0Cv_SNj-N3KL7cdkPOr5V3wzvI_R128tsSlG45LOx4N91N&_nc_ohc=dVfT_v_qSlUQ7kNvgGfX3d3&_nc_ht=scontent.fmnl4-7.fna&oh=03_Q7cD1QHCDREi_nfXxa8b96PP4CkWF0l0xZr-RGUgf-Ksq8cTXg&oe=666E7C8A);
+    background-size: cover;
+    background-position: center;
+}
+section {
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 75px;
+    box-shadow: 0px 10px 36px 16px rgba(0,0,0,0.1);
+}
+.game--title {
+    padding-top: 100px;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 150px;
+    margin: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cell {
+    font-family: "Poppins", sans-serif;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 20px;
+}
+button {
+    margin-bottom: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #8c52ff;
+    cursor: pointer;
+}
+button:hover {
+    transition: 0.25s;
+    background-color: #c1a2fe;
+}
